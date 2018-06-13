@@ -1,0 +1,31 @@
+.jumbotron {
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.j1 {
+    padding: 0px;
+}
+
+body {
+    background-image: url("../images/background.jpg");
+}
+
+.row {
+    margin: auto;
+}
+
+.img {
+    display: block;
+    margin: auto;
+}
+
+
+.bar {
+    border-bottom: 3px solid #06005a;
+    margin: 20px;
+}

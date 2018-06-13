@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystal Collector</title>
+
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+    <div class="jumbotron col-10 text-center">
+        <h1>Crystals Collector!</h1>
+        <div class="bar"></div>
+        <h2>Rules:</h2>
+        <p>You will be given a random number at the start of the game.</p>
+        <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+        <p>You win the game by exactly matching your total score to the randomly generated number. You lose the game if your
+            total score goes above the randomly generated number.</p>
+        <p>The value of each crystal is hidden from you until you click on it.</p>
+        <p>Each time when the game starts, the game will change the value of each crystal. </p>
+    </div>
+    <div>
+        <div class="jumbotron col-10 text-center">
+            <h1>Target Score:
+                <span id="target-score"></span>
+            </h1>
+
+        </div>
+        <div class="jumbotron col-10 text-center">
+            <h1>User Score:
+                <span id="user-score"></span>
+            </h1>
+        </div>
+    </div>
+    <div>
+        <div class="jumbotron col-10 text-center">
+            <h1>Wins:
+                <span id="wins"></span>
+            </h1>
+        </div>
+        <div class="jumbotron col-10 text-center">
+            <h1>Losses:
+                <span id="losses"></span>
+            </h1>
+        </div>
+    </div>
+    <div>
+        <div class="jumbotron row col-10 text-center">
+            <div class="col">
+                <img class="crystals" src="assets/images/fire.png" alt="fire">
+            </div>
+            <div class="col">
+                <img class="crystals" src="assets/images/lightning.png" alt="lightning">
+            </div>
+            <div class="col">
+                <img class="crystals" src="assets/images/water.png" alt="water">
+            </div>
+            <div class="col">
+                <img class="crystals" src="assets/images/earth.png" alt="earth">
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</body>
+
+</html>
